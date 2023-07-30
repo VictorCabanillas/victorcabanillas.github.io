@@ -1,0 +1,143 @@
+html 
+    {
+    overflow: auto;
+    }
+
+body 
+    {
+    background: #6aa2ff;
+    margin: 0;
+    padding: 0;
+    }
+
+.icon 
+    {    
+    width:10%;    
+    transform:none;
+    transition:transform 0.25s ease;
+    filter: brightness(0) invert(1);
+    }
+
+.icon:hover 
+    {
+    transform:scale(1.2);
+    transition:transform 0.25s ease;
+    filter: none;
+    }
+    
+.halfDiv
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+        
+.basicDiv 
+    {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    }
+    
+.divBasico
+    {
+    background: #020209d2;
+    display: flex;
+    flex-direction: column;
+    width:100;
+    align-items:center;
+    justify-content:center;
+    }
+    
+.profilePicture 
+    {
+    float: right;
+    width: 30vw;
+    height: auto;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    margin-right: 10vw;
+    margin-left: 5vw;
+    }
+
+.profileName 
+    {
+    text-align: center;
+    font-size: 8vw;
+    }
+
+.whiteText
+{
+ color: #ffffff;
+ text-align:center;   
+}
+
+
+/* Navbar styles */ 
+.navbar 
+{ 
+background-color: #020209d2; /* Change this to the desired background color */ 
+height: 12vh; /* Adjust the height as needed */ 
+display: flex; 
+justify-content: space-between; 
+align-items: center; 
+padding: 0 20px;
+ } 
+ 
+.navbar.sticky
+{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
+ 
+ /* Logo or brand styles */ 
+ .navbar__brand 
+ { 
+ color: #fff; /* Change this to the desired font color */ 
+ font-size: 24px; /* Adjust the font size as needed */ 
+ text-decoration: none; /* Remove underline for the link */ 
+ } 
+ 
+ /* Navigation links styles */ 
+ .navbar__links 
+ { 
+ list-style: none; 
+ margin: 0; 
+ padding: 0; 
+ }
+  
+ .navbar__links li 
+ { 
+ display: inline-block; 
+ margin-left: 3vw; /* Adjust the spacing between links */ 
+ }
+  
+ .navbar__links li:first-child 
+ { 
+ margin-left: 0; /* Remove margin for the first link */ 
+ } 
+ 
+ .navbar__links li:last-child
+ {
+ margin-right: 2vw;
+ }
+ 
+ .navbar__links a 
+ { 
+ color: #fff; /* Change this to the desired font color */ 
+ text-decoration: none; /* Remove underline for the link */ 
+ font-size: 18px; /* Adjust the font size as needed */ 
+ }
+  
+ .navbar__links a:hover 
+ { 
+ text-decoration: underline; /* Show underline on hover */ 
+ }
