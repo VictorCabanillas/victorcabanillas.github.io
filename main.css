@@ -12,7 +12,7 @@ body
 
 .icon 
     {    
-    width:10%;    
+    width:5%;    
     transform:none;
     transition:transform 0.25s ease;
     filter: brightness(0) invert(1);
@@ -45,14 +45,24 @@ body
     
 .divBasico
     {
-    background: #020209d2;
+    background: #141d34;
     display: flex;
     flex-direction: column;
-    width:100;
+    width:100%;
     align-items:center;
     justify-content:center;
     }
     
+.socialDiv
+{
+    display: flex;
+    flex-direction: row;
+    width:100;
+    align-items:center;
+    justify-content:center;
+    padding: 1vh;
+}    
+
 .profilePicture 
     {
     float: right;
@@ -82,7 +92,7 @@ body
 /* Navbar styles */ 
 .navbar 
 { 
-background-color: #020209d2; /* Change this to the desired background color */ 
+background-color: #141d34; /* Change this to the desired background color */ 
 height: 12vh; /* Adjust the height as needed */ 
 display: flex; 
 justify-content: space-between; 

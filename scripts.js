@@ -1,9 +1,11 @@
 window.onscroll = function() { stickyNavbar() }; 
+window.onload = function () {stickyNavbar()};
 const navbar = document.getElementById("navigationBar"); 
-const sticky = navbar.offsetTop+1; 
+const sticky = navbar.offsetTop; 
+
 function stickyNavbar() 
 { 
-if (window.pageYOffset >= sticky) 
+if (window.scrollY >= sticky) 
 { 
 navbar.classList.add("sticky"); 
 } 
